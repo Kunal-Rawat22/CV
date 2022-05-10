@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Details</title>
+  </head>
+  <body>
+    <h3>Contact Details </h3>
+    <hr size="1", noshade>
+    <p>108/A, Saket, New Delhi-17</p>
+    <p>9911136266</p>
+    <p>Kunalrawat399@gmail.com</p><br>
+
+    <hr size="2", noshade><br>
+
+    <form action="mailto:Kunalrawat399@gmail.com" method="post" enctype="text/plain">      <!-- type="text,submit,file,date,radio,range"-->
+
+      <table cellspacing="10">
+
+        <tr>
+          <td><label>Your Name :</label></td>
+          <td><input type="text" name="Your Name"></td>
+        </tr>
+
+        <tr>
+          <td><label>Enter Your Email :</label></td>
+          <td><input type="email" name="Your Email"></td>
+        </tr>
+
+        <tr>
+          <td><label>Enter your DOB : </label></td>
+          <td><input type="date" name="Your DOB">&ensp;<input type="color"></td>
+        </tr>
+
+        <tr>
+          <td><label"">Upload 10th Marksheet :</label></td>
+          <td><input type="file"></td>
+        </tr>
+
+        <tr>
+          <td><label"">Password :</label></td>
+          <td><input type="password" name="Your Password"></td>
+        </tr>
+
+      </table>
+
+      <textarea name="Your message" rows="8" cols="80"></textarea>              <!-- rows=No. of rows, cols=No. of character-->
+      <br><br>                                                          <!--Total no. of characters= rows*cols -->
+      <label>Do you want to sign up for email list ?</label><br><br>    <!-- range is like scroll !! -->
+      <input type="checkbox" name="" value="">                          <!-- Radio and checkbox are same !!-->
+      <input type="submit" name="">
+    </form>
+  </body>
+</html>
